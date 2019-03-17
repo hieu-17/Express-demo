@@ -6,7 +6,30 @@
     },
     {
       "name": "hieu",
-      "phone": "1234"
+      "phone": "1234",
+      "email": "hieumaster@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "hieu",
+      "phone": "qqqq"
+    },
+    {
+      "name": "hung",
+      "phone": "23232",
+      "password": "1234"
+    },
+    {
+      "name": "hieu",
+      "phone": "12345",
+      "email": "hieumaster17@gmail.com",
+      "password": "123",
+      "id": "lbqhGBWrC"
+    },
+    {
+      "name": "hieu",
+      "phone": "123",
+      "id": "oK9-ckB8p"
     }
   ]
 }
