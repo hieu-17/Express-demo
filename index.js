@@ -1,3 +1,4 @@
+require('dotenv').config()
 var express = require('express');
 var bodyParser = require('body-parser');
 var userRoute = require('./routes/user.route');
@@ -13,7 +14,7 @@ app.set('views', './views')
 app.set('view engine', 'pug')
 app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
-app.use(cookieParser('sdsdasdw'))
+app.use(cookieParser(process.env.SESSION_SECRET))
 
 app.get('/', (req, res) => res.render('index', {
     name: 'World'
